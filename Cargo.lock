@@ -569,7 +569,7 @@ dependencies = [
  "criterion",
  "document-features",
  "fast_image_resize",
- "image",
+ "image 0.25.2",
  "itertools 0.13.0",
  "libvips",
  "nix",
@@ -771,6 +771,16 @@ dependencies = [
  "tiff",
  "zune-core",
  "zune-jpeg",
+]
+
+[[package]]
+name = "image"
+version = "0.25.2"
+source = "git+https://github.com/immemorabilis0/image?branch=jxl#a0627421451f22c978a013281dc64b57d436294e"
+dependencies = [
+ "bytemuck",
+ "byteorder-lite",
+ "num-traits",
 ]
 
 [[package]]
@@ -1427,7 +1437,7 @@ dependencies = [
  "clap-verbosity-flag",
  "env_logger",
  "fast_image_resize",
- "image",
+ "image 0.25.1",
  "log",
  "once_cell",
 ]
@@ -1633,7 +1643,7 @@ name = "testing"
 version = "0.1.0"
 dependencies = [
  "fast_image_resize",
- "image",
+ "image 0.25.1",
 ]
 
 [[package]]
